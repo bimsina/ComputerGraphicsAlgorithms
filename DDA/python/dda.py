@@ -1,13 +1,9 @@
 import sys,pygame
 from pygame import gfxdraw
 
-pygame.init()
-screen = pygame.display.set_mode((400,400))
-screen.fill((0,0,0))
-pygame.display.flip()
-
 white=(255,255,255)
 
+# DDA Function Start
 def dda(x1,y1,x2,y2):
 	if(x1 > x2):
 		x1 ,x2 = x2 ,x1
@@ -25,8 +21,16 @@ def dda(x1,y1,x2,y2):
 		y+= dy
 		gfxdraw.pixel(screen,round(x),round(y),white)
 	pygame.display.flip()
+# DDA Function End
 
-dda(-5,10,5,20)
+# MAIN FUNCRION
+x1 ,y1 = input("Enter the first point: ").split()
+x2 ,y2 = input("Enter the second point: ").split()
+pygame.init()
+screen = pygame.display.set_mode((1000,1000))
+screen.fill((0,0,0))
+pygame.display.flip()
+dda(int(x1),int(y1),int(x2),int(y2))
 
 while 1:
 	for event in pygame.event.get():
