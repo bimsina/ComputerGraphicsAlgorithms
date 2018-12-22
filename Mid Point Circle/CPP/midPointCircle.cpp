@@ -18,9 +18,9 @@ void midPointCircle(int centreX, int centerY, int r){
             y -= 1;
             p = p + 2*x + 1 - 2*(y-1);
         }
-        cout<<x;
+        cout<<x + centreX;
         cout<<" ";
-        cout<<y;
+        cout<<y + centerY;
         cout<<"\n";
         putpixel(x+centreX , y + centerY , WHITE);
         putpixel(y+centreX , x + centerY , WHITE);

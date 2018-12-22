@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<iostream>
 #include<graphics.h>
+#include<cmath>
 using namespace std;
 
 void DDA(int x1, int y1, int x2,int y2) {
@@ -35,6 +36,10 @@ void DDA(int x1, int y1, int x2,int y2) {
 	float Y = y1;
 	for (int i = 0; i <= steps; i++)
 	{
+	    cout<<round(X);
+        cout<<" ";
+        cout<<round(Y);
+        cout<<"\n";
 		putpixel (X+xCenter,Y+yCenter,WHITE);
 		X += xInc;
 		Y += yInc;
