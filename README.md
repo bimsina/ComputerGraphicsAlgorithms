@@ -4,11 +4,13 @@ This repository contains the following algorithms:
 
 <hr>
 <h2>
-<a href="#dda-header">1.DDA Line Drawing Algorithm</a><br>
-<a href="#bresenham-header">2.Bresenham Line Drawing Algorithm</a><br>
-<a href="#mid-point-circle-header">3.Mid Point Circle Algorithm</a><br>
-<a href="#mid-point-ellipse-header">3.Mid Point Ellipse Algorithm</a><br>
-<a href="#twoD-transformation-header">4.2D Transformation</a><br>
+<ol>
+<li><a href="#dda-header">DDA Line Drawing Algorithm</a></li>
+<li><a href="#bresenham-header">Bresenham Line Drawing Algorithm</a></li>
+<li><a href="#mid-point-circle-header">Mid Point Circle Algorithm</a></li>
+<li><a href="#mid-point-ellipse-header">Mid Point Ellipse Algorithm</a></li>
+<li><a href="#twoD-transformation-header">2D Transformation</a></li>
+</ol>
 </h2>
 <h3>
 <ul>
